@@ -6,12 +6,13 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
-  declarations: [ContentComponent, HeaderComponent, FooterComponent, HomeComponent, PortfolioComponent, ContactComponent],
+  declarations: [ContentComponent, HeaderComponent, FooterComponent, HomeComponent, PortfolioComponent, ContactComponent, AboutComponent],
   imports: [
-    CommonModule
+    CommonModule,
   ],
-  exports: [ContentComponent, HomeComponent, PortfolioComponent, ContactComponent]
+  exports: [ContentComponent, HomeComponent, PortfolioComponent, ContactComponent, AboutComponent]
 })
 export class UiModule { }

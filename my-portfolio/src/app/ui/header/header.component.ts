@@ -25,7 +25,5 @@ export class HeaderComponent implements OnInit {
       var contact = document.getElementById("contact");
       contact.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
     }
-    // var portfolio = document.getElementById("portfolio");
-    // portfolio.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
   }
 }

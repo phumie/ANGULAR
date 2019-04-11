@@ -12,4 +12,8 @@ export class PortfolioComponent implements OnInit {
   ngOnInit() {
   }
 
+  scrollToElement(): void {
+    var contact = document.getElementById("contact");
+    contact.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+  }
 }

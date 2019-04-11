@@ -1,5 +1,40 @@
 .contact-content {
-    height: 100vh;
+    height: 80vh;
     margin-top: 20px;
-    background: pink;
+    padding: 20px;
 }
+
+.contact-information {
+    text-align: center;
+    color: rgb(255, 136, 115);
+}
+
+.top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    height: 30px;
+    width: 30px;
+    border: 2px solid rgb(68, 68, 68);
+    border-radius: 50%;
+    color: rgb(65, 65, 65);
+    background-color: #ffffff;
+    font-weight: 1000;
+}
+
+.contact-content .card {
+    border: none;
+    border-radius: 0px;
+}
+
+.card .card-title {
+    font-size: 17px;
+}
+
+.card button{
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 2px;
+    color: rgb(99, 99, 99);
+    background-color: white;
+}
+

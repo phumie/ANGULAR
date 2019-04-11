@@ -12,4 +12,9 @@ export class AboutComponent implements OnInit {
   ngOnInit() {
   }
 
+  scrollToElement(): void {
+    var portfolio = document.getElementById("portfolio");
+    portfolio.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+  }
+
 }
